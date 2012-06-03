@@ -42,6 +42,7 @@ Module MainModule
     'Private _noConsole As Boolean = False
     'Private _generateRetro As Boolean = False
 
+    ' this is to just make the file different.
     Sub Main(ByVal cmdArgs As String())
         Dim args As New List(Of String)(cmdArgs)
         If args.Count = 0 Then
